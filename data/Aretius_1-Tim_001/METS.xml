@@ -1,0 +1,328 @@
+<mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <fileSec>
+    
+    <fileGrp USE="export">
+      
+        <file ID="export1">
+          <FLocat xlink:href="bsb10313792_00016.xml"/>
+        </file>
+      
+        <file ID="export2">
+          <FLocat xlink:href="bsb10313792_00017.xml"/>
+        </file>
+      
+        <file ID="export3">
+          <FLocat xlink:href="bsb10313792_00018.xml"/>
+        </file>
+      
+        <file ID="export4">
+          <FLocat xlink:href="bsb10313792_00019.xml"/>
+        </file>
+      
+        <file ID="export5">
+          <FLocat xlink:href="bsb10313792_00020.xml"/>
+        </file>
+      
+        <file ID="export6">
+          <FLocat xlink:href="bsb10313792_00021.xml"/>
+        </file>
+      
+        <file ID="export7">
+          <FLocat xlink:href="bsb10313792_00022.xml"/>
+        </file>
+      
+        <file ID="export8">
+          <FLocat xlink:href="bsb10313792_00023.xml"/>
+        </file>
+      
+        <file ID="export9">
+          <FLocat xlink:href="bsb10313792_00024.xml"/>
+        </file>
+      
+        <file ID="export10">
+          <FLocat xlink:href="bsb10313792_00025.xml"/>
+        </file>
+      
+        <file ID="export11">
+          <FLocat xlink:href="bsb10313792_00026.xml"/>
+        </file>
+      
+        <file ID="export12">
+          <FLocat xlink:href="bsb10313792_00027.xml"/>
+        </file>
+      
+        <file ID="export13">
+          <FLocat xlink:href="bsb10313792_00028.xml"/>
+        </file>
+      
+        <file ID="export14">
+          <FLocat xlink:href="bsb10313792_00029.xml"/>
+        </file>
+      
+        <file ID="export15">
+          <FLocat xlink:href="bsb10313792_00030.xml"/>
+        </file>
+      
+        <file ID="export16">
+          <FLocat xlink:href="bsb10313792_00031.xml"/>
+        </file>
+      
+        <file ID="export17">
+          <FLocat xlink:href="bsb10313792_00032.xml"/>
+        </file>
+      
+        <file ID="export18">
+          <FLocat xlink:href="bsb10313792_00033.xml"/>
+        </file>
+      
+        <file ID="export19">
+          <FLocat xlink:href="bsb10313792_00034.xml"/>
+        </file>
+      
+        <file ID="export20">
+          <FLocat xlink:href="bsb10313792_00035.xml"/>
+        </file>
+      
+        <file ID="export21">
+          <FLocat xlink:href="bsb10313792_00036.xml"/>
+        </file>
+      
+        <file ID="export22">
+          <FLocat xlink:href="bsb10313792_00037.xml"/>
+        </file>
+      
+        <file ID="export23">
+          <FLocat xlink:href="bsb10313792_00038.xml"/>
+        </file>
+      
+        <file ID="export24">
+          <FLocat xlink:href="bsb10313792_00039.xml"/>
+        </file>
+      
+        <file ID="export25">
+          <FLocat xlink:href="bsb10313792_00040.xml"/>
+        </file>
+      
+        <file ID="export26">
+          <FLocat xlink:href="bsb10313792_00041.xml"/>
+        </file>
+      
+        <file ID="export27">
+          <FLocat xlink:href="bsb10313792_00042.xml"/>
+        </file>
+      
+        <file ID="export28">
+          <FLocat xlink:href="bsb10313792_00043.xml"/>
+        </file>
+      
+        <file ID="export29">
+          <FLocat xlink:href="bsb10313792_00044.xml"/>
+        </file>
+      
+        <file ID="export30">
+          <FLocat xlink:href="bsb10313792_00045.xml"/>
+        </file>
+      
+        <file ID="export31">
+          <FLocat xlink:href="bsb10313792_00046.xml"/>
+        </file>
+      
+        <file ID="export32">
+          <FLocat xlink:href="bsb10313792_00047.xml"/>
+        </file>
+      
+        <file ID="export33">
+          <FLocat xlink:href="bsb10313792_00048.xml"/>
+        </file>
+      
+        <file ID="export34">
+          <FLocat xlink:href="bsb10313792_00049.xml"/>
+        </file>
+      
+        <file ID="export35">
+          <FLocat xlink:href="bsb10313792_00050.xml"/>
+        </file>
+      
+    </fileGrp>
+  </fileSec>
+  <structMap TYPE="physical">
+    <div TYPE="document">
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export1"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export2"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export3"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export4"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export5"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export6"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export7"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export8"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export9"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export10"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export11"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export12"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export13"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export14"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export15"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export16"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export17"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export18"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export19"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export20"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export21"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export22"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export23"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export24"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export25"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export26"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export27"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export28"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export29"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export30"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export31"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export32"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export33"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export34"/>
+      </div>
+      
+      <div TYPE="page">
+        
+        <fptr FILEID="export35"/>
+      </div>
+      
+    </div>
+  </structMap>
+</mets>
