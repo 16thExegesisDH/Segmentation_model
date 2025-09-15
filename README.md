@@ -3,8 +3,10 @@
 Fine-tuning of a segmentation model for Latin printed text in Roman script  
 
 ---
-## Objectif
-Automate as much as possible the retrieval of verses during segmentation behind the label: 'MainZoneHead''
+
+## Objectif 
+Automate as much as possible the retrieval of verses during segmentation behind the label: **MainZoneHead**
+
 ---
 
 ## 📂 Project Setup
@@ -15,7 +17,6 @@ Automate as much as possible the retrieval of verses during segmentation behind 
 ---
 
 ##  Methodology
-
 ###  1.  Verify compatibility of ALTO data  
 They must have the following labeling:  
 
