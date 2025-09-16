@@ -51,6 +51,7 @@
 <OtherTag ID="BT100009" LABEL="MarginTextZone-Notes" DESCRIPTION="block type MarginTextZone-Notes"/>
 <OtherTag ID="BT100010" LABEL="MainZone-Other" DESCRIPTION="block type MainZone-Other"/>
 <OtherTag ID="BT100011" LABEL="MainZone-Entry" DESCRIPTION="block type MainZone-Entry"/>
-  ```
 
-solution : bash script  ?
+  ```
+1. Problem of LABEL for MainZone-P-Continued change in MainZone-P
+solution : python script  ?
