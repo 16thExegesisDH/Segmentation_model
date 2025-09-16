@@ -21,10 +21,10 @@ Automate as much as possible the retrieval of verses during segmentation behind 
 They must have the following labeling:  
 
 - the labelling correspond to the ontology Segmento. Uses of Segmento according to our data link(linktocome)
-###  2.  If needed, correct ALTO with the following bash script:  
-```python
-[./main.py](https://github.com/16thExegesisDH/Segmentation_model/tree/main/script)
-```
+###  2.  If needed, correct ALTO with the following python script:  
+
+[script/main.py](https://github.com/16thExegesisDH/Segmentation_model/tree/main/script)
+
 ### 3. Train the model
 
 ### 4. test the model 
