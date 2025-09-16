@@ -1,0 +1,19 @@
+train: /home/floriane/Documents/visual_code/Segmentation/my-dataset/train/images
+val: /home/floriane/Documents/visual_code/Segmentation/my-dataset/val/images
+nc: 15
+names:
+- NumberingZone
+- RunningTitleZone
+- MainZone-Continued
+- MainZone-Head
+- MainZone-P
+- QuireMarksZone
+- DropCapitalZone
+- MarginTextZone
+- MarginTextZone-Notes
+- TitlePageZone
+- MarginTextZone-ManuscriptAddendum
+- GraphicZone-Decoration
+- text
+- GraphicZone
+- MainZone-Entry

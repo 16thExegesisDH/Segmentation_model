@@ -1,0 +1,15 @@
+NumberingZone
+RunningTitleZone
+MainZone-Continued
+MainZone-Head
+MainZone-P
+QuireMarksZone
+DropCapitalZone
+MarginTextZone
+MarginTextZone-Notes
+TitlePageZone
+MarginTextZone-ManuscriptAddendum
+GraphicZone-Decoration
+text
+GraphicZone
+MainZone-Entry
