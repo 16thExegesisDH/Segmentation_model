@@ -53,5 +53,14 @@
 <OtherTag ID="BT100011" LABEL="MainZone-Entry" DESCRIPTION="block type MainZone-Entry"/>
 
   ```
-1. Problem of LABEL for MainZone-P-Continued change in MainZone-P
+1. Problem list 
+- LABEL for MainZone-P-Continued change in MainZone-Continued
+- add : 
+<OtherTag ID="BT100002" LABEL="MainZone-Lg" DESCRIPTION="block type MainZone-Lg"/> 
+<OtherTag ID="BT100003" LABEL="MainZone-Signature" DESCRIPTION="block type MainZone-Signature"/>;
+<OtherTag ID="BT100009" LABEL="MarginTextZone-Notes" DESCRIPTION="block type MarginTextZone-Notes"/>
+
+
+
 solution : python script  ?
+premier essaie en corrigeant slmt le nom de la MainZone-P-Continued en MainZone-P
