@@ -1,5 +1,5 @@
-train: /home/floriane/Documents/visual_code/Segmentation/my-dataset/train/images
-val: /home/floriane/Documents/visual_code/Segmentation/my-dataset/val/images
+train: /home/users/g/goyf/Segmentation_train/my-dataset/train/images
+val: /home/users/g/goyf/Segmentation_train/my-dataset/val/images
 nc: 15
 names:
 - NumberingZone
