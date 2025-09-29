@@ -11,9 +11,10 @@ Automate as much as possible the retrieval of verses during segmentation behind 
 
 ## 📂 Project Setup
 - Training data under `data/`  
-- Model fine-tune with library [**yaltai**](https://github.com/ponteineptique/yaltai) on [**LADaS**](https://github.com/DEFI-COLaF/LADaS) [last model](https://github.com/DEFI-COLaF/LADaS/releases/tag/2024-10-31)
-- Using labels from **Segmento**
+- Model fine-tune with library [**YALTAI**](https://github.com/ponteineptique/yaltai) on [**LADaS**](https://github.com/DEFI-COLaF/LADaS) [last model](https://github.com/DEFI-COLaF/LADaS/releases/tag/2024-10-31)
+- Using labels from **Segmonto** documentation for Label [here] (https://github.com/DEFI-COLaF/LADaS/blob/main/AnnotationGuide.md) and for the particular case of our corpus [here](https://github.com/16thExegesisDH/Pre-segmentation/blob/main/README.md)
 
+some references  :
 ```
 @article{Cl_rice_2023,
    title={You Actually Look Twice At it (YALTAi): using an object detection approach instead of region segmentation within the Kraken engine},
