@@ -58,7 +58,7 @@ Automate the retrieval of Bible Verses during segmentation behind the label: **`
 
 ### 2. Correct ALTO if Necessary
 
-Use the provided script:
+Use the provided script: 
 
 ```bash
 python script/formate_data/main.py
