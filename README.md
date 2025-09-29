@@ -1,46 +1,76 @@
+# Segmentation Model
 
-# Segmentation_model  
-Fine-tuning of a segmentation model for Latin printed text in Roman script  
-
----
-
-## Objectif 
-Automate as much as possible the retrieval of verses during segmentation behind the label: **MainZoneHead**
+Fine-tuning a segmentation model for Latin printed text in Roman script
 
 ---
 
-## 📂 Project Setup
-- Training data under `data/`  
-- Model fine-tune with library [**YALTAI**](https://github.com/ponteineptique/yaltai) on [**LADaS**](https://github.com/DEFI-COLaF/LADaS) [last model](https://github.com/DEFI-COLaF/LADaS/releases/tag/2024-10-31)
-- Using labels from **Segmonto** documentation for Label [here] (https://github.com/DEFI-COLaF/LADaS/blob/main/AnnotationGuide.md) and for the particular case of our corpus [here](https://github.com/16thExegesisDH/Pre-segmentation/blob/main/README.md)
+## Objective
 
-some references  :
-```
+Automate the retrieval of Bible Verses during segmentation behind the label: **`MainZoneHead`**
+
+---
+
+## Project Setup
+
+* Training data: `data/`
+* Fine-tuning with [**YALTAI**](https://github.com/ponteineptique/yaltai)
+* Base model: [**LADaS (latest release)**](https://github.com/DEFI-COLaF/LADaS/releases/tag/2024-10-31)
+* Labels: [SegmOnto documentation for LaDaS model](https://github.com/DEFI-COLaF/LADaS/blob/main/AnnotationGuide.md)
+* Corpus-specific guidelines: [here](https://github.com/16thExegesisDH/Pre-segmentation/blob/main/README.md)
+
+---
+
+## References
+
+```bibtex
 @article{Cl_rice_2023,
    title={You Actually Look Twice At it (YALTAi): using an object detection approach instead of region segmentation within the Kraken engine},
    volume={Historical Documents and...},
    ISSN={2416-5999},
    url={http://dx.doi.org/10.46298/jdmdh.9806},
    DOI={10.46298/jdmdh.9806},
-   journal={Journal of Data Mining &amp; Digital Humanities},
+   journal={Journal of Data Mining & Digital Humanities},
    publisher={Centre pour la Communication Scientifique Directe (CCSD)},
    author={Clérice, Thibault},
    year={2023},
-   month=dec }
+   month=dec
+}
+
+@online{segmonto2023,
+  author    = {Simon Gabay and Ariane Pinche and Kelly Christensen and Jean-Baptiste Camps and Nicola Carboni},
+  title     = {SegmOnto, A Controlled Vocabulary to Describe the Layout of Pages},
+  date      = {2023},
+  version   = {0.9},
+  location  = {Genève / Lyon / Paris},
+  url       = {https://segmonto.github.io/}
+}
+
 ```
 
 ---
 
-##  Methodology
-###  1.  Verify compatibility of ALTO data  
-They must have the following labeling:  
+## Methodology
 
-- the labelling correspond to the ontology Segmento. Uses of Segmento according to our data link(linktocome)
-###  2.  If needed, correct ALTO with the following python script:  
+### 1. Verify ALTO Data Compatibility
 
-[script/main.py](script/formate_data)
+* Ensure labeling follows **SegmOnto ontology**
+* Adapt according to [our dataset](linktocome)
 
-### 3. Train the model
+### 2. Correct ALTO if Necessary
 
-### 4. test the model 
-- Run evaluation on PhD students’ datasets (October 2025).
+Use the provided script:
+
+```bash
+python script/formate_data/main.py
+```
+
+### 3. Train the Model
+
+* Fine-tune on `data/` with **YALTAI**
+
+### 4. Test the Model
+
+* Evaluate on **PhD students’ datasets** (October 2025)
+* Benchmark metrics and qualitative analysis
+
+---
