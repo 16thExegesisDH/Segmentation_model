@@ -11,8 +11,22 @@ Automate as much as possible the retrieval of verses during segmentation behind 
 
 ## 📂 Project Setup
 - Training data under `data/`  
-- Model trained with **yaltai**  
-- Using labels from **Segmento**  
+- Model fine-tune with library [**yaltai**](https://github.com/ponteineptique/yaltai) on [**LADaS**](https://github.com/DEFI-COLaF/LADaS) [last model](https://github.com/DEFI-COLaF/LADaS/releases/tag/2024-10-31)
+- Using labels from **Segmento**
+
+```
+@article{Cl_rice_2023,
+   title={You Actually Look Twice At it (YALTAi): using an object detection approach instead of region segmentation within the Kraken engine},
+   volume={Historical Documents and...},
+   ISSN={2416-5999},
+   url={http://dx.doi.org/10.46298/jdmdh.9806},
+   DOI={10.46298/jdmdh.9806},
+   journal={Journal of Data Mining &amp; Digital Humanities},
+   publisher={Centre pour la Communication Scientifique Directe (CCSD)},
+   author={Clérice, Thibault},
+   year={2023},
+   month=dec }
+```
 
 ---
 
