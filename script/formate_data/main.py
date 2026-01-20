@@ -1,3 +1,6 @@
+"""
+main objectif  change the "MainZone-P-Continued" tag in  "MainZone-Continued" for the new model.pt
+"""
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
