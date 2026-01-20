@@ -6,7 +6,7 @@ Fine-tuning a segmentation model for Latin printed text in Roman script
 
 ## Objective
 
-Automate the retrieval of Bible Verses during segmentation behind the label: **`MainZoneHead`**
+Automate the retrieval of Bible Verses during segmentation behind the label: **`MainZone-Head`**
 
 ---
 
