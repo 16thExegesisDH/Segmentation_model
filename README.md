@@ -54,7 +54,7 @@ Automate the retrieval of Bible Verses during segmentation behind the label: **`
 ### 1. Verify ALTO Data Compatibility
 
 * Ensure labeling follows **SegmOnto ontology**
-* Adapt according to [our dataset](https://github.com/16thExegesisDH/HTR_1-Timotheus/tree/main/data) descript in the following [corpus] (https://github.com/16thExegesisDH/Segmentation_model/blob/main/data/corpus_segmentation_model.csv)
+* Adapt according to [our dataset](https://github.com/16thExegesisDH/HTR_1-Timotheus/tree/main/data) descript in the following [corpus](https://github.com/16thExegesisDH/Segmentation_model/blob/main/data/corpus_segmentation_model.csv)
 
 ### 2. Correct ALTO if Necessary
 
