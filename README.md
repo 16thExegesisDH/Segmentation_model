@@ -23,7 +23,7 @@ Automate the retrieval of Bible Verses during segmentation behind the label: **`
 ## Corpus
 
 
-| Folder Id | File Id | Resp | Files Number | Author | Title | Printer | Date | Place | Library | Call number (digital) |
+| Folder ID | File ID | Resp | Number of Files | Author | Title | Printer | Date | Place | Library | Books |
 |-----------|------------------|------|--------------|--------|-------|---------|------|-------|---------|-----------------------|
 | Lefevre_1-Tim_001 | bsb11059254_00499-bsb11059254_00501 | FG | 3 | Jacques Lefèvre d’Étaples | Commentarii in epistolas D. Pauli | Anonymus | 1512 | Paris | Regensburg Staatliche Bibliothek | [999/2Script.801](https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11059254-9) |
 | Bugenhagen_1-Tim_001 | bsb00027764_00155-bsb00027764_00172 | FG | 18 | Johannes Bugenhagen | In epistulam Pauli ad Timotheum | Anonymus (Adam Petri?) | 1524 | Basel | Bayerische Staatsbibliothek München | [Res/Exeg. 309 b Beibd.3](https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00027764-8) |
