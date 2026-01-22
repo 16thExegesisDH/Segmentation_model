@@ -13,8 +13,8 @@ Automate the retrieval of Bible Verses during segmentation behind the label: **`
 ## Project Setup
 
 * Training data: `data/` from the repository [https://github.com/16thExegesisDH/HTR_1-Timotheus/](https://github.com/16thExegesisDH/HTR_1-Timotheus/)
-* Fine-tuning with [**YALTAI**](https://github.com/ponteineptique/yaltai)
-* Base model: [**LADaS (latest release)**](https://github.com/DEFI-COLaF/LADaS/releases/tag/2024-10-31)
+* Training with  [**YALTAI**](https://github.com/ponteineptique/yaltai) and the model [yolov8.pt](https://docs.ultralytics.com/fr/models/yolov8/) 
+* Data prepared and made interoperable with the model: [**LADaS (latest release)**](https://github.com/DEFI-COLaF/LADaS/releases/tag/2024-10-31)
 * Labels: [SegmOnto documentation for LaDaS model](https://github.com/DEFI-COLaF/LADaS/blob/main/AnnotationGuide.md)
 * Corpus-specific guidelines: [here](https://github.com/16thExegesisDH/Pre-segmentation/blob/main/README.md)
 
