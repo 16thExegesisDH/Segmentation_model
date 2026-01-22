@@ -12,7 +12,8 @@ module load CUDA/11.8.0 GCCcore/11.3.0 Python/3.9.6
 
 # Activate a Python virtual environment from a folder named 'yaltai-env' in the user's home directory.
 source ~/Segmentation_train/yaltaisegenv/bin/activate
-#load the segmentation model 
+#load the segmentation model
+#note that our segmentation model named model-train-test.pt is the last one of LaDaS : https://github.com/DEFI-COLaF/LADaS/releases/tag/2024-10-31
 # try to run the file with cpu so change device=0 for device=cpu
 yolo task=detect mode=train model=model-train-test.pt data=my-dataset/config.yml epochs=100 plots=True device=0 batch=8 imgsz=960
 #use the model with a cpu
