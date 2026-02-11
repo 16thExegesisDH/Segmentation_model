@@ -12,7 +12,7 @@ Automate the retrieval of Bible Verses during segmentation behind the label: **`
 
 ## Project Setup
 
-* Training data: `data/` from the repository [https://github.com/16thExegesisDH/HTR_1-Timotheus/](https://github.com/16thExegesisDH/HTR_1-Timotheus/)
+* Training data: `data/` from the repository [**HTR-Corpus-A**](https://github.com/16thExegesisDH/HTR-Corpus-A)
 * Data prepared and made interoperable with the model: [**LADaS (latest release)**](https://github.com/DEFI-COLaF/LADaS/releases/tag/2024-10-31)
 * Training with  [**YALTAI**](https://github.com/ponteineptique/yaltai) and fine-tuning on the model [**LADaS (latest release)**](https://github.com/DEFI-COLaF/LADaS/releases/tag/2024-10-31)
 * Labels: [SegmOnto documentation for LaDaS model](https://github.com/DEFI-COLaF/LADaS/blob/main/AnnotationGuide.md)
@@ -37,6 +37,34 @@ Automate the retrieval of Bible Verses during segmentation behind the label: **`
 | Bucer_Eph_test | bsb0003503_00001-bsb0003503_0041 | NS/FG | 41 | Jacques Lefèvre d’Étaples | Commentarii in epistolas D. Pauli | Anonymus | 1512 | Paris | Regensburg Staatliche Bibliothek | [999/2Script.801](https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11059254-9) |
 | Bucer_Rm_test | bsb11059254_00466-bsb11059254_00484 | BN/FG | 19 | Martin Bucer | Metaphrases et enarrationes in Epistolam ad Romanos | Wendelin Rihel | 1536 | Strasbourg | Regensburg Staatliche Bibliothek | [999/2Script.662](https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11059175-0) |
 | Lefevre_Rm_test | bsb11059254_00203-bsb11059254_00222 | MC/FG | 19 | Martin Bucer | Epistolam ad Ephesios | Anonymus | 1527 | Strasbourg | Bayerische Staatsbibliothek München | [Polem. 408 Beibd.2](https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00035303-6) |
+
+---
+
+
+## Methodology
+
+### 1. Verify ALTO Data Compatibility
+
+* Ensure labeling follows **SegmOnto ontology**
+* Adapt according to [our dataset : **Corpus-A**](https://github.com/16thExegesisDH/HTR-Corpus-A/tree/main/data) descript in the following [corpus](https://github.com/16thExegesisDH/Segmentation_model/blob/main/data/corpus_segmentation_model.csv)
+
+
+### 2. Correct ALTO label if Necessary
+
+Use the provided script: 
+
+```py
+python script/formate_data/main.py
+```
+
+### 3. Train the Model
+
+* Fine-tune on `data/` with **YALTAI**
+
+### 4. Test the Model
+
+* Evaluate on **PhD students’ datasets** (October 2025)
+* Benchmark metrics and qualitative analysis
 
 ---
 
@@ -66,32 +94,22 @@ Automate the retrieval of Bible Verses during segmentation behind the label: **`
 }
 
 ```
+## How to cite 
 
----
-
-## Methodology
-
-### 1. Verify ALTO Data Compatibility
-
-* Ensure labeling follows **SegmOnto ontology**
-* Adapt according to [our dataset : **Corpus-A**](https://github.com/16thExegesisDH/HTR-Corpus-A/tree/main/data) descript in the following [corpus](https://github.com/16thExegesisDH/Segmentation_model/blob/main/data/corpus_segmentation_model.csv)
-
-
-### 2. Correct ALTO if Necessary
-
-Use the provided script: 
-
-```bash
-python script/formate_data/main.py
+* Repository
+```bibtex
+@misc{Goy_Segmentation_model,
+  author={Floriane Goy, Noemi Schürmann, Benjamin Manig, Matteo Colombo },
+  title={HTR of Latin printed book from 16th Century},
+  version={1.0},
+  address={Genève},
+  publisher={université de Genève},
+  year={2023-2026},
+  url={https://github.com/16thExegesisDH/Segmentation_model},
+}
 ```
 
-### 3. Train the Model
-
-* Fine-tune on `data/` with **YALTAI**
-
-### 4. Test the Model
-
-* Evaluate on **PhD students’ datasets** (October 2025)
-* Benchmark metrics and qualitative analysis
-
----
+* Model
+```
+Goy, F. (2026). Layout-16th-Print-Lat.pt (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.18492102
+```
