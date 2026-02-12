@@ -30,4 +30,4 @@ zip -r altos_segmented.zip content/image_1/*xml
 # ça a fonctionné le 11.02.26, le probleme c'est la qualités des images, si c'est trop penché le script fonctionne pas
 # il utilise toute la mémoire dispo pour segmenter en il crache. 
 #sacct --format JobID,State,MaxRSS verifier la config
-# segmente 1 image en 30 seconde avec 1 600 000 K donc 1.6GB 
+# segmente 1 image en 30 seconde avec 1 600 000 K donc 1.6GB  
