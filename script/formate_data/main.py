@@ -10,8 +10,8 @@ from utils.write_xml import write_xml
 # -------------------------------
 # Configuration
 # -------------------------------
-XML_FOLDER = Path("Aretius_1-Tim_001")  # change to your folder path
-OUTPUT_FOLDER = Path("Aretius_1-Tim_001_updated")
+XML_FOLDER = Path("Bucer_Rm_C12_test")  # change to your folder path
+OUTPUT_FOLDER = Path("Bucer_Rm_C12_test")
 OUTPUT_FOLDER.mkdir(exist_ok=True)
 
 # Register namespaces
